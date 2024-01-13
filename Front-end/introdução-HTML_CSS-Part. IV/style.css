@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+}
+
+.box {
+  background: #f8a34f;
+  width: 200px;
+  height: 100px;
+  padding: 0px;
+  border: 15px solid #d77009;
+  margin: 0px;
+}
+
+.box-2 {
+  background: #6F256F;
+  width: 300px;
+  height: 300px;
+  border: #A66FA6 solid 10px;
+  border-radius: 10px;
+  margin: 25px;
+  text-align: center;
+}
