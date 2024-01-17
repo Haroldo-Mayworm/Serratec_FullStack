@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+section {
+  text-align: start;
+  background: #111;
+  color: white;
+  height: 150px;
+  margin: 20px 0;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+span {
+  color: #febe01;
+}
+
+.btn-comprar {
+  display: inline-block;
+  text-decoration: none;
+  color: #332200;
+  background: #febe01;
+  margin-top: 5px;
+  text-align: center;
+  width: 7em;
+  padding: 15px 15px;
+  border-radius: 3px;
+}
