@@ -1,0 +1,20 @@
+#conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#conteudo article {
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 40px 20px;
+}
+
+#conteudo h2 {
+  padding-bottom: 25px;
+}
+
+.conteudo-b3 {
+  grid-column: 1 / 3;
+}

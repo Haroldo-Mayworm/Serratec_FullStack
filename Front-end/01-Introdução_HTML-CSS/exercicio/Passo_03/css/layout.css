@@ -1,0 +1,45 @@
+#conteudoGeral {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 3px 2px 25px 2px black;
+}
+
+#topo {
+  max-width: 100%;
+  height: 70px;
+  background: #e0aa40;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu {
+  max-width: 100%;
+  height: auto;
+  background: black;
+  padding-bottom: 15px;
+}
+
+#conteudo {
+  max-width: 100%;
+  height: 640px;
+  background: rgb(225, 225, 225);
+}
+
+#rodape {
+  max-width: 100%;
+  height: 40px;
+  background: #aaa;
+  display: block;
+}
+
+.copy {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.copy:hover {
+  color: red;
+}
