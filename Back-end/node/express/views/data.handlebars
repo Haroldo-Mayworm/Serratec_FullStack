@@ -1,0 +1,25 @@
+<h1>Datas</h1>
+<table border=1>
+  <tr>
+    <td>name</td>
+    <td>lastName</td>
+    <td>age</td>
+  </tr>
+
+  <tr>
+    <td>{{name}}</td>
+    <td>{{lastName}}</td>
+    <td>{{age}}</td>
+  </tr>
+</table>
+<br>
+<table border=1>
+  <tr>
+    <td>Items</td>
+  </tr>
+  {{#each items}}
+  <tr>
+    <td>{{this}}</td>
+  </tr>
+  {{/each}}
+</table>

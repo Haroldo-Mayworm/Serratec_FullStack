@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.unordered {
+  background: aquamarine;
+}
+
+
+.ordered {
+  background: rgb(172, 172, 0);
+}

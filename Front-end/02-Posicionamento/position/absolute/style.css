@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+div {
+  position: relative;
+  border: 2px solid #ccc;
+  padding: 20px 20px 500px 20px;
+  margin: 10px;
+}
+
+span {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  background: rgba(127, 255, 212, 0.7);
+  border: 2px solid rgba(0, 255, 255, 1);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 30px;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Lora", serif;
+}
+
+h1 {
+  font-family: "Holtwood One SC", serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  text-align: justify;
+}

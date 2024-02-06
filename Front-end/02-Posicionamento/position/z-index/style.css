@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  background: rgb(182, 113, 252);
+  padding: 15px;
+  margin: 10px;
+}
+
+.z-index1 {
+  background: rgb(128, 0, 255);
+  position: relative;
+  top: 40px;
+  z-index: 2;
+}
+
+.z-index2 {
+  background: rgb(45, 0, 90);
+  position: absolute;
+  top: 70px;
+  z-index: 1;
+}
