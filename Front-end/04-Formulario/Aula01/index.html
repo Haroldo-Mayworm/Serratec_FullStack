@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="./" method="POST">
+        <legend>Entre em contato</legend>
+        <fieldset>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+
+            <label for="numberPhone">Celular</label>
+            <input type="text" id="numberPhone" name="numberPhone">
+
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" rows="8"></textarea>
+
+            <div class="checkbox">
+                <input type="checkbox" id="feedback" name="feedback" value="feedback" />
+                <label for="feedback">Desejo receber feedback</label>
+            </div>
+        </fieldset>
+        <button class="btn">Enviar!</button>
+    </form>
+</body>
+
+</html>
