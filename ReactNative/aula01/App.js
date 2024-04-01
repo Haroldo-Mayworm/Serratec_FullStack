@@ -7,15 +7,15 @@ export default function App() {
     const [backgroundColor, setBackgroundColor] = useState('#fff');
     const [textColor, setTextColor] = useState('#000');
 
-    const color = () => {
-        if (backgroundColor === '#fff' && textColor === '#000') {
-            setBackgroundColor('#02066F');
-            setTextColor('#fff');
-        } else {
-            setBackgroundColor('#fff');
-            setTextColor('#000');
-        }
-    };
+    const color = (backgroundColor, setBgColor, setTxtColor) => {
+  if (backgroundColor === COLORS.white) {
+    setBgColor(COLORS.blue);
+    setTxtColor(COLORS.white);
+  } else {
+    setBgColor(COLORS.white);
+    setTxtColor(COLORS.black);
+  }
+};
 
     return (
         <View style={[styles.container, { backgroundColor }]}>

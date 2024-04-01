@@ -1,26 +1,32 @@
 import { StyleSheet } from 'react-native';
 
+export const COLORS = {
+    white: '#fff',
+    black: '#000',
+    blue: '#02066F',
+    primary: '#60D9FA',
+};
+
 export default StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
         justifyContent: 'center',
-    },
-    img: {
-        width: 100,
-        height: 100,
-        marginBottom: 15,
+        alignItems: 'center',
     },
     text: {
-        fontSize: 30,
-        marginBottom: 50,
+        fontSize: 20,
+        color: COLORS.black,
+    },
+    img: {
+        width: 200,
+        height: 200,
     },
     btn: {
-        backgroundColor: '#60D9FA',
-        textTransform: 'uppercase',
-        paddingVertical: 10,
-        paddingHorizontal: 15,
-        borderRadius: 10,
+        backgroundColor: COLORS.primary,
+        padding: 10,
+        margin: 10,
+        borderRadius: 5,
     },
+    tema1: {backgroundColor: 'black'},
+    tema2: {backgroundColor: 'white'}
 });
